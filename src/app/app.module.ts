@@ -12,6 +12,7 @@ import { DownloadAppComponent } from './main/download-app/download-app.component
 import { LatestBlogComponent } from './main/latest-blog/latest-blog.component';
 import { StartProjectComponent } from './main/start-project/start-project.component';
 import { CreativeWayComponent } from './main/creative-way/creative-way.component';
+import { AdvantagesComponent } from './main/advantages/advantages.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { CreativeWayComponent } from './main/creative-way/creative-way.component
     DownloadAppComponent,
     LatestBlogComponent,
     StartProjectComponent,
-    CreativeWayComponent
+    CreativeWayComponent,
+    AdvantagesComponent
   ],
   imports: [
     BrowserModule
