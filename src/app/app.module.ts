@@ -13,6 +13,8 @@ import { LatestBlogComponent } from './main/latest-blog/latest-blog.component';
 import { StartProjectComponent } from './main/start-project/start-project.component';
 import { CreativeWayComponent } from './main/creative-way/creative-way.component';
 import { AdvantagesComponent } from './main/advantages/advantages.component';
+import { NavigationComponent } from './header/navigation/navigation.component';
+import { BurgerComponent } from './header/burger/burger.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { AdvantagesComponent } from './main/advantages/advantages.component';
     LatestBlogComponent,
     StartProjectComponent,
     CreativeWayComponent,
-    AdvantagesComponent
+    AdvantagesComponent,
+    NavigationComponent,
+    BurgerComponent
   ],
   imports: [
     BrowserModule
