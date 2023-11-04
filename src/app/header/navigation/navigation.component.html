@@ -1,1 +1,21 @@
-<p>navigation works!</p>
+<nav class="nav-bar">
+  <ul class="nav-bar__list">
+    <li *ngFor="let navItem of navbar" class="list-item">
+      <a class="nav-bar__item" href="#">
+        {{ navItem.title }}
+      </a>
+      <ul class="sublist">
+        <li
+          *ngFor="let item of nums; index as i"
+          [ngClass]="{
+            sublist__item: item,
+            sublist__item_f: item === 0,
+            sublist__item_l: item === nums.length - 1
+          }"
+        >
+          <a class="sublist__link" href="#"> {{ navItem.title }} {{ item }} </a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
