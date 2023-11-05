@@ -6,8 +6,9 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./advantages-desc.component.css'],
 })
 export class AdvantagesDescComponent implements OnInit {
+  @Input() advItem;
+
   constructor() {}
 
   ngOnInit(): void {}
-  @Input() advItem;
 }

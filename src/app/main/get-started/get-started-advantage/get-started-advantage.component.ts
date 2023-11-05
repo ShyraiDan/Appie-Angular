@@ -6,12 +6,12 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./get-started-advantage.component.css'],
 })
 export class GetStartedAdvantageComponent implements OnInit {
-  constructor() {}
-
-  ngOnInit(): void {}
-
   @Input() item: {
     title: string;
     description: string;
   };
+
+  constructor() {}
+
+  ngOnInit(): void {}
 }

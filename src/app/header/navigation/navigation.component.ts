@@ -6,10 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navigation.component.css'],
 })
 export class NavigationComponent implements OnInit {
-  constructor() {}
-
-  ngOnInit(): void {}
-
   navbar = [
     { title: 'Home' },
     { title: 'Service' },
@@ -19,4 +15,8 @@ export class NavigationComponent implements OnInit {
   ];
 
   nums = [1, 2, 3, 4, 5];
+
+  constructor() {}
+
+  ngOnInit(): void {}
 }

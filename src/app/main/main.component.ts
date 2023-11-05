@@ -6,10 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main.component.css'],
 })
 export class MainComponent implements OnInit {
-  constructor() {}
-
-  ngOnInit(): void {}
-
   data = [
     {
       photo: '../../assets/i/about-thumb-2.png',
@@ -28,4 +24,8 @@ export class MainComponent implements OnInit {
       },
     },
   ];
+
+  constructor() {}
+
+  ngOnInit(): void {}
 }

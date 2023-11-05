@@ -6,10 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./what-do.component.css'],
 })
 export class WhatDoComponent implements OnInit {
-  constructor() {}
-
-  ngOnInit(): void {}
-
   data = [
     {
       containerCl: 'item-one-container animation',
@@ -28,4 +24,8 @@ export class WhatDoComponent implements OnInit {
       title: 'Secured protocol',
     },
   ];
+
+  constructor() {}
+
+  ngOnInit(): void {}
 }
