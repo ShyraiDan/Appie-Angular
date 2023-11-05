@@ -15,6 +15,7 @@ import { CreativeWayComponent } from './main/creative-way/creative-way.component
 import { AdvantagesComponent } from './main/advantages/advantages.component';
 import { NavigationComponent } from './header/navigation/navigation.component';
 import { BurgerComponent } from './header/burger/burger.component';
+import { FooterRightComponent } from './shared/footer-right/footer-right.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { BurgerComponent } from './header/burger/burger.component';
     CreativeWayComponent,
     AdvantagesComponent,
     NavigationComponent,
-    BurgerComponent
+    BurgerComponent,
+    FooterRightComponent
   ],
   imports: [
     BrowserModule

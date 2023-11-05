@@ -1,1 +1,40 @@
-<p>burger works!</p>
+<nav class="header__menu">
+  <div class="header__icon">
+    <img src="{burgerLogo}" />
+  </div>
+  <ul class="header__list">
+    <li *ngFor="let item of acordeon; index as i">
+      <a class="header__sub-link">
+        {{ item.title }}
+      </a>
+      <div [ngClass]="{ acordeon: item, show: selected === i }">
+        <ul class="sub-burger">
+          <li *ngFor="let number of nums" class="sub-burger__item">
+            <a class="sub-burger__link" href="">
+              {{ acordeon[number].title }} {{ number }}
+            </a>
+          </li>
+        </ul>
+      </div>
+    </li>
+  </ul>
+  <div class="social social_mt">
+    <a *ngFor="let item of social" class="social__item">
+      <span class="{{ item.spanCl }}"></span>
+    </a>
+  </div>
+  <ul class="footer-nav__list">
+    <app-footer-right
+      (class)="('icon icon-envelop')"
+      (text)="('support@appie.com')"
+    ></app-footer-right>
+    <app-footer-right
+      (class)="('icon icon-phone')"
+      (text)="('+(642) 342 762 44')"
+    ></app-footer-right>
+    <app-footer-right
+      (class)="('icon icon-location2')"
+      (text)="('442 Belle Terre St Floor 7, San Francisco, AV 4206')"
+    ></app-footer-right>
+  </ul>
+</nav>
