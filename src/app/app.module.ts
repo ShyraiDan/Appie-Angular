@@ -16,6 +16,7 @@ import { AdvantagesComponent } from './main/advantages/advantages.component';
 import { NavigationComponent } from './header/navigation/navigation.component';
 import { BurgerComponent } from './header/burger/burger.component';
 import { FooterRightComponent } from './shared/footer-right/footer-right.component';
+import { WhatDoItemComponent } from './main/what-do/what-do-item/what-do-item.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { FooterRightComponent } from './shared/footer-right/footer-right.compone
     AdvantagesComponent,
     NavigationComponent,
     BurgerComponent,
-    FooterRightComponent
+    FooterRightComponent,
+    WhatDoItemComponent
   ],
   imports: [
     BrowserModule

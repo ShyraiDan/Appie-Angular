@@ -1,1 +1,13 @@
-<p>what-do works!</p>
+<div class="part2">
+  <div class="container1">
+    <h3 class="part2__h3">What you can do</h3>
+    <p class="part2__p">
+      The full monty spiffing good time no biggie cack grub fantastic.
+    </p>
+    <div class="items">
+      <div [class]="el.containerCl" *ngFor="let el of data; index as i">
+        <app-what-do-item [text]="el.title" [i]="i"></app-what-do-item>
+      </div>
+    </div>
+  </div>
+</div>

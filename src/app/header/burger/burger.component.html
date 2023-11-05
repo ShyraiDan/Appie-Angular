@@ -1,6 +1,6 @@
 <nav class="header__menu">
   <div class="header__icon">
-    <img src="{burgerLogo}" />
+    <img src="../../../assets/i/logo.png" />
   </div>
   <ul class="header__list">
     <li *ngFor="let item of acordeon; index as i">
@@ -11,7 +11,7 @@
         <ul class="sub-burger">
           <li *ngFor="let number of nums" class="sub-burger__item">
             <a class="sub-burger__link" href="">
-              {{ acordeon[number].title }} {{ number }}
+              {{ item.title }} {{ number }}
             </a>
           </li>
         </ul>

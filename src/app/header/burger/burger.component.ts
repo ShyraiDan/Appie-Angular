@@ -8,8 +8,6 @@ import { Component, OnInit } from '@angular/core';
 export class BurgerComponent implements OnInit {
   constructor() {}
 
-  ngOnInit(): void {}
-
   selected = 0;
   acordeon = [
     { title: 'Home' },
@@ -25,4 +23,8 @@ export class BurgerComponent implements OnInit {
     { spanCl: 'icon icon-linkedin2-blue' },
   ];
   nums = [1, 2, 3, 4, 5];
+
+  ngOnInit(): void {
+    console.log(this.acordeon[0].title);
+  }
 }
