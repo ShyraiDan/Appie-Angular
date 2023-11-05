@@ -17,6 +17,7 @@ import { NavigationComponent } from './header/navigation/navigation.component';
 import { BurgerComponent } from './header/burger/burger.component';
 import { FooterRightComponent } from './shared/footer-right/footer-right.component';
 import { WhatDoItemComponent } from './main/what-do/what-do-item/what-do-item.component';
+import { GetStartedAdvantageComponent } from './main/get-started/get-started-advantage/get-started-advantage.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { WhatDoItemComponent } from './main/what-do/what-do-item/what-do-item.co
     NavigationComponent,
     BurgerComponent,
     FooterRightComponent,
-    WhatDoItemComponent
+    WhatDoItemComponent,
+    GetStartedAdvantageComponent
   ],
   imports: [
     BrowserModule

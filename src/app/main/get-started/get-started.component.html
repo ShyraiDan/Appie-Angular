@@ -1,1 +1,31 @@
-<p>get-started works!</p>
+<div class="part3 animation">
+  <div class="container2">
+    <div class="container2__inner">
+      <h3 class="container2__h3">Get started with Appie Template.</h3>
+      <p class="container2__p">
+        The app provides design and digital marketing, applied arts can include
+        industrial design
+      </p>
+      <div class="achivements">
+        <app-get-started-advantage
+          *ngFor="let item of advantage"
+          [item]="item"
+        ></app-get-started-advantage>
+      </div>
+    </div>
+    <div class="container2__inner2">
+      <div class="white-btn">
+        <a href="" class="white-btn__link">
+          <span class="icon icon-play3"></span>
+        </a>
+      </div>
+      <div class="container2__img-container">
+        <img
+          src="../../../assets/i/fun-fact-thumb.png"
+          alt=""
+          class="container2__img"
+        />
+      </div>
+    </div>
+  </div>
+</div>
