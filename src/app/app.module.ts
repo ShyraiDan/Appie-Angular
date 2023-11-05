@@ -18,6 +18,8 @@ import { BurgerComponent } from './header/burger/burger.component';
 import { FooterRightComponent } from './shared/footer-right/footer-right.component';
 import { WhatDoItemComponent } from './main/what-do/what-do-item/what-do-item.component';
 import { GetStartedAdvantageComponent } from './main/get-started/get-started-advantage/get-started-advantage.component';
+import { AdvantagesImageComponent } from './main/advantages/advantages-image/advantages-image.component';
+import { AdvantagesDescComponent } from './main/advantages/advantages-desc/advantages-desc.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,9 @@ import { GetStartedAdvantageComponent } from './main/get-started/get-started-adv
     BurgerComponent,
     FooterRightComponent,
     WhatDoItemComponent,
-    GetStartedAdvantageComponent
+    GetStartedAdvantageComponent,
+    AdvantagesImageComponent,
+    AdvantagesDescComponent
   ],
   imports: [
     BrowserModule

@@ -1,1 +1,8 @@
-<p>advantages works!</p>
+<div class="grid-container">
+  <app-advantages-image
+    [ngClass]="{ part4_reverse: i === 1 }"
+    [advItem]="advItem"
+    [i]="i"
+  ></app-advantages-image>
+  <app-advantages-desc [advItem]="advItem.desc"></app-advantages-desc>
+</div>

@@ -24,7 +24,5 @@ export class BurgerComponent implements OnInit {
   ];
   nums = [1, 2, 3, 4, 5];
 
-  ngOnInit(): void {
-    console.log(this.acordeon[0].title);
-  }
+  ngOnInit(): void {}
 }

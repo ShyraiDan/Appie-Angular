@@ -11,7 +11,5 @@ export class WhatDoItemComponent implements OnInit {
   @Input() text: string;
   @Input() i: number;
 
-  ngOnInit(): void {
-    console.log(this.i);
-  }
+  ngOnInit(): void {}
 }

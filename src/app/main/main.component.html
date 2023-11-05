@@ -1,7 +1,9 @@
 <app-creative-way></app-creative-way>
 <app-what-do></app-what-do>
 <app-get-started></app-get-started>
-<app-advantages></app-advantages>
+<div class="animation" *ngFor="let item of data; index as i">
+  <app-advantages [i]="i" [advItem]="item"></app-advantages>
+</div>
 <app-creative-app></app-creative-app>
 <app-download-app></app-download-app>
 <app-latest-blog></app-latest-blog>
