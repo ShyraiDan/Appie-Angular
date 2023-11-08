@@ -1,1 +1,40 @@
-<p>download-app works!</p>
+<div>
+  <div class="container11 container11_white">
+    <h3 class="container11__h3">Download app today!</h3>
+    <p class="container11__p">Download app for Android today — it's free.</p>
+  </div>
+  <div class="grid-container1 animation">
+    <div class="part10" *ngFor="let item of data; index as i">
+      <div class="container8">
+        <div class="container8-inner">
+          <h3 class="container8__h3">{{ item.title }}</h3>
+          <p class="container8__p">
+            Download app for {{ item.device }} today — it's free.
+          </p>
+          <a
+            href="#"
+            [ngClass]="{
+              container8__link: true,
+              container8__link_red: i === 1
+            }"
+          >
+            <span
+              [ngClass]="{
+                icon: true,
+                'icon-appleinc': i === 1,
+                'icon-android': i === 0
+              }"
+            ></span>
+
+            Download for {{ item.device }}
+          </a>
+        </div>
+        <div
+          [ngClass]="{ 'container8-img': true, 'container8-img_left': i === 1 }"
+        >
+          <img [src]="item.photo" class="container8__img" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
