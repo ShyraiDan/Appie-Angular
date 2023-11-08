@@ -10,7 +10,5 @@ export class AdvantagesDescComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit(): void {
-    console.log(this.advItem);
-  }
+  ngOnInit(): void {}
 }
