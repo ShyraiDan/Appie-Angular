@@ -20,6 +20,7 @@ import { WhatDoItemComponent } from './main/what-do/what-do-item/what-do-item.co
 import { GetStartedAdvantageComponent } from './main/get-started/get-started-advantage/get-started-advantage.component';
 import { AdvantagesImageComponent } from './main/advantages/advantages-image/advantages-image.component';
 import { AdvantagesDescComponent } from './main/advantages/advantages-desc/advantages-desc.component';
+import { CommentComponent } from './main/latest-blog/comment/comment.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { AdvantagesDescComponent } from './main/advantages/advantages-desc/advan
     WhatDoItemComponent,
     GetStartedAdvantageComponent,
     AdvantagesImageComponent,
-    AdvantagesDescComponent
+    AdvantagesDescComponent,
+    CommentComponent
   ],
   imports: [
     BrowserModule

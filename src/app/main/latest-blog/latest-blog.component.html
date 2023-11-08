@@ -1,1 +1,18 @@
-<p>latest-blog works!</p>
+<div class="part12">
+  <div class="container9">
+    <div class="container9-inner">
+      <h3 class="container9__title">Latest blog posts</h3>
+      <p class="container9__p">
+        The app provides design and digital marketing.
+      </p>
+    </div>
+    <div class="posts-container">
+      <app-comment *ngFor="let item of comments" [comment]="item"></app-comment>
+    </div>
+    <div class="link-container link-container_center link-container_mid">
+      <a href="#" class="container9__link">
+        View All posts<span class="icon icon-arrow-right"></span>
+      </a>
+    </div>
+  </div>
+</div>
