@@ -10,8 +10,7 @@ export class AdvantagesComponent implements OnInit {
     photo: string;
     desc: {
       title: string;
-      subtitleOne: string;
-      subtitleTwo: string;
+      subtitles: string[];
     };
   };
   @Input() i: number;

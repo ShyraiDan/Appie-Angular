@@ -9,16 +9,20 @@
     </div>
 
     <div class="advantage">
-      <!-- <Advantage
-        class="{props.class}"
-        icon="{props.icon}"
-        subtitle="{props.subtitleOne}"
-      />
-      <Advantage
-        class="{props.classTwo}"
-        icon="{props.iconTwo}"
-        subtitle="{props.subtitleTwo}"
-      /> -->
+      <div class="advantage-item" *ngFor="let item of advItem.subtitles">
+        <div class="advantage-item__container">
+          <div class="advantage-item__icon-subcontainer">
+            <div class="{{ item.class }}">
+              <span class="{{ item.icon }}"></span>
+            </div>
+          </div>
+          <h4 class="advantage-item__title">{{ item.subtitle }}</h4>
+          <p class="advantage-item__p">
+            Mucker plastered bugger all mate morish are.
+          </p>
+        </div>
+      </div>
+
       <div class="link-container link-container_zero">
         <a class="container4__link">
           Learn More
