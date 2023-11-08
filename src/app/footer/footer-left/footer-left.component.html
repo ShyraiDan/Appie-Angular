@@ -1,0 +1,31 @@
+<div class="container-footer__left">
+  <div class="container-footer__left-inner">
+    <div class="link-container link-container_zero link-container_center">
+      <a href="#" class="container-footer__link container-footer__link_mtzero">
+        <div class="container-footer__img-container">
+          <img
+            class="container-footer__img"
+            src="../../../assets/i/logo-4.png"
+          />
+        </div>
+      </a>
+    </div>
+    <p class="container-footer__p">
+      Appie WordPress is theme is the last theme you will ever have.
+    </p>
+    <div class="link-container link-container_zero link-container_center">
+      <a href="#" class="container-footer__link">
+        Read More<span class="icon icon-arrow-right"></span>
+      </a>
+    </div>
+    <div class="social">
+      <ul class="social-list">
+        <li class="social-item" *ngFor="let item of info">
+          <a href="#" class="{{ item.anchorCl }}">
+            <span class="{{ item.iconCl }}"></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

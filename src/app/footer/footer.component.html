@@ -1,1 +1,28 @@
-<p>footer works!</p>
+<footer>
+  <div class="container-footer">
+    <div class="container-footer__width">
+      <div class="container-footer__inner">
+        <app-footer-left [info]="socialItem"></app-footer-left>
+        <app-footer-center [info]="leftCenter"></app-footer-center>
+        <app-footer-center [info]="rightCenter"></app-footer-center>
+        <div class="container-footer__right">
+          <h4 class="container-footer__title">Get In Touch</h4>
+          <ul class="footer-nav__list">
+            <app-footer-right
+              *ngFor="let item of footerRight"
+              [class]="item.class"
+              [text]="item.text"
+            ></app-footer-right>
+          </ul>
+        </div>
+      </div>
+      <div class="container-footer__under">
+        <div class="coop-info">
+          <p class="coop-info__text">
+            Copyright ©{{ date }} Appie. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

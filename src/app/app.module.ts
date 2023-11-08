@@ -21,6 +21,8 @@ import { GetStartedAdvantageComponent } from './main/get-started/get-started-adv
 import { AdvantagesImageComponent } from './main/advantages/advantages-image/advantages-image.component';
 import { AdvantagesDescComponent } from './main/advantages/advantages-desc/advantages-desc.component';
 import { CommentComponent } from './main/latest-blog/comment/comment.component';
+import { FooterCenterComponent } from './footer/footer-center/footer-center.component';
+import { FooterLeftComponent } from './footer/footer-left/footer-left.component';
 
 @NgModule({
   declarations: [
@@ -43,12 +45,12 @@ import { CommentComponent } from './main/latest-blog/comment/comment.component';
     GetStartedAdvantageComponent,
     AdvantagesImageComponent,
     AdvantagesDescComponent,
-    CommentComponent
+    CommentComponent,
+    FooterCenterComponent,
+    FooterLeftComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
