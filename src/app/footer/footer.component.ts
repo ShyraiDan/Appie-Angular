@@ -24,10 +24,10 @@ export class FooterComponent implements OnInit {
   };
 
   footerRight = [
-    { class: 'icon icon-envelop', text: 'support@appie.com' },
-    { class: 'icon icon-phone', text: '+(642) 342 762 44' },
+    { icon: 'mail', text: 'support@appie.com' },
+    { icon: 'phone', text: '+(642) 342 762 44' },
     {
-      class: 'icon icon-location2',
+      icon: 'location_on',
       text: '442 Belle Terre St Floor 7, San Francisco, AV 4206',
     },
   ];
@@ -37,6 +37,11 @@ export class FooterComponent implements OnInit {
   ];
 
   date = new Date().getFullYear();
+
+  footerBtns = [
+    { spanCl: 'icon icon-appleinc icon-appleinc_black', text: 'iOS' },
+    { spanCl: 'icon icon-android', text: 'Android' },
+  ];
 
   constructor() {}
 

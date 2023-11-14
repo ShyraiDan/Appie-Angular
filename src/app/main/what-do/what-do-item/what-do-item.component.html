@@ -7,19 +7,17 @@
       'item-one__icon-box_purple': i === 3
     }"
   >
-    <span
-      [ngClass]="{
-        icon: true,
-        'icon-loop2': i === 0,
-        'icon-neutral': i === 1,
-        'icon-lock': i === 2,
-        'icon-headphones': i === 3
-      }"
-    ></span>
+    <span class="material-symbols-outlined icon__what-do">
+      {{
+        i === 0 ? "cycle" : i === 1 ? "mood" : i === 2 ? "lock" : "headphones"
+      }}
+    </span>
   </div>
   <h4 class="item-one__h4">{{ text }}</h4>
   <p class="item-one__p">Mucker plastered bugger all mate morish are.</p>
   <a href="#" class="item-one__link">
-    Read More<span class="icon icon-arrow-right"></span>
+    Read More<span class="material-symbols-outlined icon__arrow">
+      arrow_right_alt
+    </span>
   </a>
 </div>

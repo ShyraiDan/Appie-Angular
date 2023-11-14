@@ -43,16 +43,23 @@
 
 .white-btn__link {
   background: #fff;
-  display: inline-block;
+  display: flex;
   position: absolute;
   content: "";
   left: calc(50% - 36px);
   top: 0;
-  padding: 26px 28px;
+  padding: 24px;
   text-align: center;
   border: 1px solid #fff;
   border-radius: 50%;
   text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon__play {
+  color: #ff6b58;
+  font-size: 28px;
 }
 
 @media screen and (min-width: 576px) {

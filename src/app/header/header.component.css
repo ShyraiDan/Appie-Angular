@@ -21,8 +21,10 @@
   color: var(--color-white);
   text-decoration: none;
   font-size: 15px;
-  font-weight: 15px;
+  display: flex;
+  align-items: center;
 }
+
 .header-container {
   z-index: 2;
   display: flex;
@@ -82,9 +84,7 @@
   font-weight: 500;
 }
 .header__icon {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 40px;
+  margin-right: 10px;
 }
 .header__burger::before,
 .header__burger::after {

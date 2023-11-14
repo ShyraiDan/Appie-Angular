@@ -23,6 +23,7 @@ import { AdvantagesDescComponent } from './main/advantages/advantages-desc/advan
 import { CommentComponent } from './main/latest-blog/comment/comment.component';
 import { FooterCenterComponent } from './footer/footer-center/footer-center.component';
 import { FooterLeftComponent } from './footer/footer-left/footer-left.component';
+import { FooterBtnComponent } from './footer/footer-btn/footer-btn.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +49,7 @@ import { FooterLeftComponent } from './footer/footer-left/footer-left.component'
     CommentComponent,
     FooterCenterComponent,
     FooterLeftComponent,
+    FooterBtnComponent,
   ],
   imports: [BrowserModule],
   providers: [],

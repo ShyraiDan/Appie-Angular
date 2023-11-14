@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./footer-right.component.css'],
 })
 export class FooterRightComponent implements OnInit {
-  @Input() class: string;
+  @Input() icon: string;
   @Input() text: string;
 
   constructor() {}

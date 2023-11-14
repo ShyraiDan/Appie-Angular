@@ -1,0 +1,12 @@
+<div class="link-container link-container_footer">
+  <a
+    href="#"
+    [ngClass]="{
+      'link-box__link': true,
+      'link-box__link_bg': item.text === 'Android'
+    }"
+  >
+    <span class="{{ item.spanCl }}"></span>
+    Download for {{ item.text }}
+  </a>
+</div>

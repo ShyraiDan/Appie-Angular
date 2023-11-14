@@ -15,9 +15,7 @@
     max-width: 930px;
     margin: 0 auto;
   }
-  .ggg {
-    display: grid;
-  }
+
   /* .scrolled {
     position: fixed;
     animation-name: headerScroll;

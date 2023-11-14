@@ -13,7 +13,5 @@ export class FooterCenterComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit(): void {
-    console.log(this.info);
-  }
+  ngOnInit(): void {}
 }

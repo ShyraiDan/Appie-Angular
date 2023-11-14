@@ -16,13 +16,13 @@ export class MainComponent implements OnInit {
             subtitle: 'Carefully designed',
             class:
               'advantage-item__icon-container advantage-item__icon-container_blue',
-            icon: 'icon icon-display',
+            icon: 'Tv',
           },
           {
             subtitle: 'Seamless Sync',
             class:
               'advantage-item__icon-container advantage-item__icon-container_green',
-            icon: 'icon icon-loop2',
+            icon: 'Cycle',
           },
         ],
       },
@@ -36,13 +36,13 @@ export class MainComponent implements OnInit {
             subtitle: 'User Interactive',
             class:
               'advantage-item__icon-container advantage-item__icon-container_purple',
-            icon: 'icon icon-users',
+            icon: 'group',
           },
           {
             subtitle: 'Seamless Sync',
             class:
               'advantage-item__icon-container advantage-item__icon-container_red',
-            icon: 'icon icon-tablet',
+            icon: 'smartphone',
           },
         ],
       },

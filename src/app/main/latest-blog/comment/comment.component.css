@@ -30,8 +30,16 @@
   list-style: none;
 }
 .time-list__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #505056;
 }
+
+.icon__comment {
+  padding-right: 5px;
+}
+
 @media screen and (min-width: 576px) {
   .post-item {
     grid-template-columns: 1fr 3fr;

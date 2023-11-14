@@ -7,12 +7,18 @@
   margin-top: 30px;
   padding: 50px 30px 43px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .item-one__icon-box {
-  display: inline-block;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 22.5px;
+  padding: 24px;
   border-radius: 70px;
   background: linear-gradient(135deg, #f7b8af 0%, #f8452d 100%);
   box-shadow: 0px 6px 10px 0px rgba(16, 73, 189, 0.3);
@@ -46,7 +52,7 @@
   margin: 0px;
 }
 .item-one__link {
-  display: inline-block;
+  display: flex;
   font-size: 0.93rem;
   font-weight: 500;
   margin-top: 25px;
@@ -54,7 +60,19 @@
   background-color: transparent;
   color: #505056;
   transition: all 0.4s ease-out 0s;
+  align-items: center;
+  justify-content: center;
 }
+
+.icon__arrow {
+  padding-left: 5px;
+}
+
+.icon__what-do {
+  font-size: 24px;
+  color: white;
+}
+
 @media screen and (min-width: 992px) {
   .item-one__link:hover {
     color: #ff6b58;

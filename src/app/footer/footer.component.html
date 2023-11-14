@@ -10,13 +10,19 @@
           <ul class="footer-nav__list">
             <app-footer-right
               *ngFor="let item of footerRight"
-              [class]="item.class"
+              [icon]="item.icon"
               [text]="item.text"
             ></app-footer-right>
           </ul>
         </div>
       </div>
       <div class="container-footer__under">
+        <div class="link-box">
+          <app-footer-btn
+            *ngFor="let item of footerBtns"
+            [item]="item"
+          ></app-footer-btn>
+        </div>
         <div class="coop-info">
           <p class="coop-info__text">
             Copyright ©{{ date }} Appie. All rights reserved.

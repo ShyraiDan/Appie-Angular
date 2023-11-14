@@ -13,7 +13,9 @@
         <div class="advantage-item__container">
           <div class="advantage-item__icon-subcontainer">
             <div class="{{ item.class }}">
-              <span class="{{ item.icon }}"></span>
+              <span class="material-symbols-outlined advantage__icon">{{
+                item.icon
+              }}</span>
             </div>
           </div>
           <h4 class="advantage-item__title">{{ item.subtitle }}</h4>
@@ -26,7 +28,9 @@
       <div class="link-container link-container_zero">
         <a class="container4__link">
           Learn More
-          <span class="icon icon-arrow-right"></span>
+          <span class="material-symbols-outlined icon__arrow">
+            arrow_right_alt
+          </span>
         </a>
       </div>
     </div>
