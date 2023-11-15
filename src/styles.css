@@ -1,3 +1,7 @@
+@import "swiper/swiper.min.css";
+@import "swiper/components/navigation/navigation.min.css";
+@import "swiper/components/pagination/pagination.min.css";
+
 :root {
   --color-black: #000;
   --color-white: #fff;
@@ -67,4 +71,37 @@ body {
 .icon-linkedin2:before {
   color: var(--color-black);
   content: "\eaca";
+}
+
+.swiper-container {
+  margin: auto;
+  max-width: 420px;
+}
+
+.swiper-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-pagination span {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-container {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .swiper-container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .swiper-container {
+    max-width: 1170px;
+  }
 }

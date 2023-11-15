@@ -1,0 +1,29 @@
+.slider__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.slider__item img {
+  display: block;
+  width: 270px;
+  height: 100%;
+  object-fit: cover;
+}
+@media screen and (min-width: 576px) {
+  .slider__item img {
+    width: 195px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .slider__item img {
+    width: 210px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .slider__item img {
+    width: 270px;
+  }
+}

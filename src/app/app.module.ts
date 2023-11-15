@@ -1,3 +1,5 @@
+import { SwiperModule } from 'swiper/angular';
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -24,6 +26,7 @@ import { CommentComponent } from './main/latest-blog/comment/comment.component';
 import { FooterCenterComponent } from './footer/footer-center/footer-center.component';
 import { FooterLeftComponent } from './footer/footer-left/footer-left.component';
 import { FooterBtnComponent } from './footer/footer-btn/footer-btn.component';
+import { SliderItemComponent } from './main/creative-app/slider-item/slider-item.component';
 
 @NgModule({
   declarations: [
@@ -50,8 +53,9 @@ import { FooterBtnComponent } from './footer/footer-btn/footer-btn.component';
     FooterCenterComponent,
     FooterLeftComponent,
     FooterBtnComponent,
+    SliderItemComponent,
   ],
-  imports: [BrowserModule],
+  imports: [BrowserModule, SwiperModule],
   providers: [],
   bootstrap: [AppComponent],
 })

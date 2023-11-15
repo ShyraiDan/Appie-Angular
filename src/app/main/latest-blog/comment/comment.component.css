@@ -31,8 +31,6 @@
 }
 .time-list__item {
   display: flex;
-  align-items: center;
-  justify-content: center;
   color: #505056;
 }
 
