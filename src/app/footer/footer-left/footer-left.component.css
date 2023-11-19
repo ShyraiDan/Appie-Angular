@@ -77,26 +77,26 @@
   }
   .container-footer__link:hover {
     color: #ff6b58;
-    transition: all 0.4s ease-out 0s;
+    transition: all 0.2s ease-out;
   }
   .social-item:hover {
     background: #ff6b58;
-    transition: all linear 0.3s;
+    transition: all linear 0.2s;
   }
   .social-item:hover .icon-facebook::before {
     color: #fff;
-    transition: all linear 0.7s;
+    transition: all linear 0.2s;
   }
   .social-item:hover .icon-twitter::before {
     color: #fff;
-    transition: all linear 0.7s;
+    transition: all linear 0.2s;
   }
   .social-item:hover .icon-instagram::before {
     color: #fff;
-    transition: all linear 0.7s;
+    transition: all linear 0.2s;
   }
   .social-item:hover .icon-linkedin2::before {
     color: #fff;
-    transition: all linear 0.7s;
+    transition: all linear 0.2s;
   }
 }

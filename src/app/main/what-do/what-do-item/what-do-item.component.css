@@ -76,6 +76,6 @@
 @media screen and (min-width: 992px) {
   .item-one__link:hover {
     color: #ff6b58;
-    transition: all 0.4s ease-out 0s;
+    transition: all 0.2s ease-out 0s;
   }
 }

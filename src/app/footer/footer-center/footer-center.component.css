@@ -36,3 +36,9 @@
     text-align: left;
   }
 }
+@media screen and (min-width: 992px) {
+  .footer-nav__link:hover {
+    color: #ff6b58;
+    transition: all 0.2s ease-out 0s;
+  }
+}

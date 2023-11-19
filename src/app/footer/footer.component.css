@@ -119,11 +119,6 @@
   .container-footer__inner {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-
-  .footer-nav__link:hover {
-    color: #ff6b58;
-    transition: all 0.4s ease-out 0s;
-  }
 }
 @media screen and (min-width: 1200px) {
   .container-footer__width {

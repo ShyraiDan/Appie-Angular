@@ -8,7 +8,7 @@
   border: 2px solid #ffffff;
   text-decoration: none;
   text-align: center;
-  transition: all 0.4s ease-out 0s;
+  transition: all 0.2s ease-out;
 }
 
 .link-box__link_bg {
@@ -30,7 +30,6 @@
     background: transparent;
     color: #0e1133;
     border-color: #e7eaef;
-    transition: all 0.4s ease-out 0s;
   }
   .link-box__link_bg:hover {
     background: #fff;
