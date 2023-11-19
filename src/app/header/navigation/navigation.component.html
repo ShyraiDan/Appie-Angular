@@ -9,8 +9,8 @@
           *ngFor="let item of nums; index as i"
           [ngClass]="{
             sublist__item: item,
-            sublist__item_f: item === 0,
-            sublist__item_l: item === nums.length - 1
+            sublist__item_f: item === 1,
+            sublist__item_l: item === nums.length
           }"
         >
           <a class="sublist__link" href="#"> {{ navItem.title }} {{ item }} </a>
