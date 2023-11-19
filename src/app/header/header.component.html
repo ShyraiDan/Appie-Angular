@@ -14,10 +14,17 @@
       <a href="#" class="header__login-btn header__login-btn_invis">
         Get Started
       </a>
-      <div class="header__burger" onClick="{burgerClick}">
+      <div
+        class="header__burger"
+        (click)="burgerClick($event)"
+        [ngClass]="burgerOpen ? 'active' : ''"
+      >
         <span class="header__span"></span>
       </div>
-      <app-burger></app-burger>
+
+      <app-burger
+        [ngClass]="{ header__menu: true, active: burgerOpen }"
+      ></app-burger>
     </div>
   </div>
 </header>
