@@ -4,13 +4,13 @@
   </div>
   <ul class="header__list">
     <li *ngFor="let item of acordeon; index as i">
-      <a class="header__sub-link">
+      <a class="header__sub-link" (click)="toggleAccordion(i)">
         {{ item.title }}
       </a>
       <div [ngClass]="{ acordeon: item, show: selected === i }">
         <ul class="sub-burger">
           <li *ngFor="let number of nums" class="sub-burger__item">
-            <a class="sub-burger__link" href="">
+            <a class="sub-burger__link" href="#">
               {{ item.title }} {{ number }}
             </a>
           </li>
@@ -25,16 +25,9 @@
   </div>
   <ul class="footer-nav__list">
     <app-footer-right
-      (class)="('icon icon-envelop')"
-      (text)="('support@appie.com')"
-    ></app-footer-right>
-    <app-footer-right
-      (class)="('icon icon-phone')"
-      (text)="('+(642) 342 762 44')"
-    ></app-footer-right>
-    <app-footer-right
-      (class)="('icon icon-location2')"
-      (text)="('442 Belle Terre St Floor 7, San Francisco, AV 4206')"
+      *ngFor="let item of footerRight"
+      [icon]="item.icon"
+      [text]="item.text"
     ></app-footer-right>
   </ul>
 </nav>

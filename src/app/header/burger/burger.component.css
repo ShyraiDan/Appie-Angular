@@ -9,7 +9,7 @@
 }
 .social__item {
   display: inline-block;
-  line-height: 40px;
+  line-height: 44px;
   text-align: center;
   height: 40px;
   width: 40px;
@@ -17,6 +17,22 @@
   border: 1px solid #ededed;
   margin: 0 5px;
 }
+
+.header__sub-link {
+  display: block;
+  color: var(--color-blue);
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--color-grey);
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.header__icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
 .sub-burger {
   padding-left: 20px;
 }
